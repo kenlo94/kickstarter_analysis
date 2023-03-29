@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-Use the Kickstarter data to create two new analyses: 
+**Use the Kickstarter data to create two new analyses:** 
 1. Outcomes based on launch date: Using a pivot table, determine the number of successful, failed, or canceled campaigns, based off of the month that they were launched in.
 2. Outcomes based on goal amount. After grouping each campaign into bins using the goal amount, determine the percentages of campaigns that were successful, failed, or canceled. 
 
