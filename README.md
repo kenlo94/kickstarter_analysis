@@ -47,4 +47,7 @@ This dataset is small with only 4,115 rows, so there is not much information. Th
 We could create graphs using different filters for the parent category and subcategory instead of looking at just "Theatre" for the parent Category and "plays" for the subcategory. We could also take a look at the percentage funded and the average donation to see if they have any impact on the outcome of a campaign (successful, failed, canceled).
 
 ---
-View the Project on [GitHub](https://github.com/kenlo94/kickstarter_analysis)
+<div style="display: flex; justify-content: space-between;">
+    <div>Return to the <a href="https://kenlo94.github.io/">Homepage</a></div>
+    <div>View the Project on <a href="https://github.com/kenlo94/kickstarter_analysis">GitHub</a></div>
+</div>
