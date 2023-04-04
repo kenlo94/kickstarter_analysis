@@ -1,7 +1,7 @@
 # Analyzing Kickstarter Campaigns with Excel
 
 ## Resources
-- Data Source: Kickstarters.xlsx
+- Data source: Kickstarters.xlsx
 - Software: Microsoft Excel Version 2302
 
 ## Project Overview
