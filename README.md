@@ -4,7 +4,7 @@
 - Data source: Kickstarters.xlsx
 - Software: Microsoft Excel Version 2302
 
-## Project Overview
+## Project Objectives
 
 **Use the Kickstarter data to create two new analyses:** 
 1. Outcomes based on launch date: Using a pivot table, determine the number of successful, failed, or canceled campaigns, based off of the month that they were launched in.
