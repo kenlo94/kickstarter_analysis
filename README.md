@@ -7,7 +7,7 @@
 ## Project Objectives
 
 **Use the Kickstarter data to create two new analyses:** 
-1. Outcomes based on launch date: Using a pivot table, determine the number of successful, failed, or canceled campaigns, based off of the month that they were launched in.
+1. Outcomes based on launch date: Using a pivot table, determine the number of successful, failed, or canceled campaigns, based off the month that they were launched in.
 2. Outcomes based on goal amount. After grouping each campaign into bins using the goal amount, determine the percentages of campaigns that were successful, failed, or canceled. 
 
 ## Results & Analysis
@@ -36,7 +36,7 @@ If a campaign is launched in the Summer months (May, June, July) then they are m
 
 ![Screenshot](Images/Outcome_vs_Goals.png)
 
-Generally speaking, the lower the goal amount, the higher the success rate. Although there are some instances where campaigns are just as successful, such as in the 35k to 45k range. Also, none of these campaigns were canceled, which was quite surpising to see.
+Generally speaking, the lower the goal amount, the higher the success rate. Although there are some instances where campaigns are just as successful, such as in the 35k to 45k range. Also, none of these campaigns were canceled, which was quite surprising to see.
 
 ### What are some limitations of this dataset?
 
