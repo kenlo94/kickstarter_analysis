@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07QV7C307D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-07QV7C307D');
+    </script>
+    <meta charset="utf-8">
+    <title>Analyzing Kickstarter Campaigns with Excel</title>
+    <style>
+        #preview {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        p.has-line-data[data-line-start="18"] {
+            margin-top: 2em;
+        }
+
+        body {
+            font-size: 20px;
+        }
+
+        .my-hr {
+            margin-top: -1.25em !important;
+            margin-bottom: 0em !important;
+        }
+    </style>
+</head>
+
+<body id="preview">
+    <h1 class="code-line" data-line-start=0 data-line-end=1><a
+            id="Analyzing_Kickstarter_Campaigns_with_Excel_0"></a>Analyzing Kickstarter Campaigns with Excel</h1>
+    <h2 class="code-line" data-line-start=2 data-line-end=3><a id="Resources_2"></a>Resources</h2>
+    <hr class="my-hr">
+    <ul>
+        <li class="has-line-data" data-line-start="3" data-line-end="4">Data source: Kickstarters.xlsx</li>
+        <li class="has-line-data" data-line-start="4" data-line-end="6">Software: Microsoft Excel Version 2302</li>
+    </ul>
+    <h2 class="code-line" data-line-start=6 data-line-end=7><a id="Project_Objectives_6"></a>Project Objectives</h2>
+    <hr class="my-hr">
+    <h3 class="has-line-data" data-line-start="8" data-line-end="9"><strong>Use the Kickstarter data to create two new
+            analyses:</strong></h3>
+    <ol>
+        <li class="has-line-data" data-line-start="9" data-line-end="10">Outcomes based on launch date: Using a pivot
+            table, determine the number of successful, failed, or canceled campaigns, based off the month that they were
+            launched in.</li>
+        <li class="has-line-data" data-line-start="10" data-line-end="12">Outcomes based on goal amount. After grouping
+            each campaign into bins using the goal amount, determine the percentages of campaigns that were successful,
+            failed, or canceled.</li>
+    </ol>
+    <h2 class="code-line" data-line-start=12 data-line-end=13><a id="Results__Analysis_12"></a>Results &amp; Analysis
+    </h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="14" data-line-end="15">For the first analysis, tasks included creating new
+        columns, sheets, pivot tables, filtering the pivot table, and creating a chart from that pivot table.</p>
+    <p class="has-line-data" data-line-start="16" data-line-end="17"><img src="Images/Pivot_table1.PNG"
+            alt="Screenshot"> <img src="Images/Pivot_table2.PNG" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="18" data-line-end="19">For the second analysis, tasks included changing
+        the format of data in a column, using a new function: COUNTIFS(), and visualizing percentages using a chart.</p>
+    <p class="has-line-data" data-line-start="20" data-line-end="21"><img src="Images/Outcomes_Goals_Table.png"
+            alt="Screenshot"></p>
+    <h2 class="code-line" data-line-start=22 data-line-end=23><a id="Challenges_22"></a>Challenges</h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="24" data-line-end="25">A challenge I ran into was learning how to use the
+        new COUNTIFS() function. This was the first time I had used this function and I was unsure what arguments to
+        input into the function. It became easier to understand once I researched how this function operated. However, I
+        was still making errors on my notation so I kept having to go back to edit my arguments.</p>
+    <h2 class="code-line" data-line-start=26 data-line-end=27><a id="Drawing_Insights_26"></a>Drawing Insights</h2>
+    <hr class="my-hr">
+    <h3 class="code-line" data-line-start=28 data-line-end=29><a
+            id="What_are_two_conclusions_you_can_draw_about_the_Outcomes_based_on_Launch_Date_28"></a>What are two
+        conclusions you can draw about the Outcomes based on Launch Date?</h3>
+    <p class="has-line-data" data-line-start="30" data-line-end="31"><img src="Images/Outcome_vs_Launch2.png"
+            alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="32" data-line-end="33">If a campaign is launched in the Summer months
+        (May, June, July) then they are more likely to succeed since the count of successful campaigns is higher during
+        that time period. Another conclusion that can be drawn is that canceled campaigns are low and steady all year
+        round at or below 7 counts.</p>
+    <h3 class="code-line" data-line-start=34 data-line-end=35><a
+            id="What_can_you_conclude_about_the_Outcomes_based_on_Goals_34"></a>What can you conclude about the Outcomes
+        based on Goals?</h3>
+    <p class="has-line-data" data-line-start="36" data-line-end="37"><img src="Images/Outcome_vs_Goals2.png"
+            alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="38" data-line-end="39">Generally speaking, the lower the goal amount, the
+        higher the success rate. Although there are some instances where campaigns are just as successful, such as in
+        the 35k to 45k range. Also, none of these campaigns were canceled, which was quite surprising to see.</p>
+    <h3 class="code-line" data-line-start=40 data-line-end=41><a
+            id="What_are_some_limitations_of_this_dataset_40"></a>What are some limitations of this dataset?</h3>
+    <p class="has-line-data" data-line-start="42" data-line-end="43">This dataset is small with only 4,115 rows, so
+        there is not much information. This dataset mainly tells the viewer if a campaign was successful, if they
+        failed, or if they were canceled. However, I believe the data served its purpose regarding both analyses.</p>
+    <h3 class="code-line" data-line-start=44 data-line-end=45><a
+            id="What_are_some_other_possible_tables_andor_graphs_that_we_could_create_44"></a>What are some other
+        possible tables and/or graphs that we could create?</h3>
+    <p class="has-line-data" data-line-start="46" data-line-end="47">We could create graphs using different filters for
+        the parent category and subcategory instead of looking at just “Theatre” for the parent Category and “plays” for
+        the subcategory. We could also take a look at the percentage funded and the average donation to see if they have
+        any impact on the outcome of a campaign (successful, failed, canceled).</p>
+    <hr>
+    <p class="has-line-data" data-line-start="49" data-line-end="50">Return to the <a
+            href="https://kenlo94.github.io/">Homepage</a></p>
+</body>
+
+</html>
